@@ -13,6 +13,73 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <!--Content-->
+    <LinearLayout
+        android:padding="@dimen/padding"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Row1-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--Display-->
+            <TextView
+                android:padding="@dimen/padding"
+                android:gravity="end"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:text="12345"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <!--Clear-->
+            <Button
+                android:layout_weight="1"
+                android:textSize="@dimen/h1"
+                android:text="C"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <!--Row2-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <!--Row3-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <!--Row4-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <!--Row5-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+    </LinearLayout>
 
 
 </LinearLayout>
