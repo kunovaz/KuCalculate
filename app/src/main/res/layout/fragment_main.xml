@@ -46,5 +46,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <!--Clear Button-->
+        <Button
+            android:id="@+id/btnClear"
+            android:text="Clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

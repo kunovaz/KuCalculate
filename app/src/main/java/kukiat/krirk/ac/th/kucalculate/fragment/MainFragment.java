@@ -30,7 +30,20 @@ public class MainFragment extends Fragment{
         showNameController();
 //        Calculate Controller
         calculateController();
+//        Clear Button
+        clearButton();
     }   // Main Method
+
+    private void clearButton() {
+        Button button = getView().findViewById(R.id.btnClear);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextView textView = getView().findViewById(R.id.txtShowName);
+                textView.setText("Click Show Name");
+            }
+        });
+    }
 
     private void calculateController() {
         Button button = getView().findViewById(R.id.btnCalculate);
