@@ -2,10 +2,11 @@ package kukiat.krirk.ac.th.kucalculate;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import kukiat.krirk.ac.th.kucalculate.fragment.MainFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }   // Main Method
+
+    @Override
+    public void onClick(View view) {
+
+    }
 }   // Main Class
