@@ -34,6 +34,7 @@ public class MainFragment extends Fragment{
         clearButton();
     }   // Main Method
 
+
     private void clearButton() {
         Button button = getView().findViewById(R.id.btnClear);
         button.setOnClickListener(new View.OnClickListener() {

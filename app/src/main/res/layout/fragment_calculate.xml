@@ -29,6 +29,7 @@
 
             <!--Display-->
             <TextView
+                android:textColor="#ffffff"
                 android:padding="@dimen/padding"
                 android:gravity="end"
                 android:layout_weight="3"
@@ -53,7 +54,49 @@
             android:padding="5dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></LinearLayout>
+            android:layout_height="match_parent">
+
+            <!--Button7-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="7"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--Button8-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="8"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--Button9-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="9"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--Button/-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="/"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
 
         <!--Row3-->
         <LinearLayout
@@ -61,7 +104,46 @@
             android:padding="5dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></LinearLayout>
+            android:layout_height="match_parent">
+
+            <!--Button4-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="4"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--Button5-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="5"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--Button6-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="6"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--ButtonX-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="X"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
 
         <!--Row4-->
         <LinearLayout
@@ -69,7 +151,46 @@
             android:padding="5dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></LinearLayout>
+            android:layout_height="match_parent">
+
+            <!--Button1-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--Button2-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--Button3-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="3"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--Button+-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="+"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
 
         <!--Row5-->
         <LinearLayout
@@ -77,7 +198,37 @@
             android:padding="5dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></LinearLayout>
+            android:layout_height="match_parent">
+
+            <!--Button0-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="0"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <!--Button=-->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="="
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <!--Button- -->
+            <Button
+
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="-"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
