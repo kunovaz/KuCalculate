@@ -255,6 +255,7 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
 
                 showDisplay(Double.toString(num1ADouble));
                 textView.setText(Double.toString(num1ADouble));
+                displayString = "0";
 
                 break;
 
@@ -316,8 +317,32 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
     } // onClick
 
     private void clearDisplay() {
-        textView.setText("");
-        displayString = "";
-        displayADouble = 0;
+
+        if (addABoolean) {
+            textView.setText("");
+            displayString = "";
+            displayADouble = 0;
+
+        } else if (minusABoolean) {
+            textView.setText("");
+            displayString = "";
+            displayADouble = 0;
+
+        } else if (multiplyABoolean) {
+            textView.setText("");
+            displayString = "";
+            displayADouble = 0;
+
+        } else if (divideABoolean) {
+            textView.setText("");
+            displayString = "";
+            displayADouble = 0;
+
+        } else {
+            textView.setText("");
+            displayString = "";
+            displayADouble = 0;
+            num1ADouble = 0;
+        }
     }
 }   // Main Class
