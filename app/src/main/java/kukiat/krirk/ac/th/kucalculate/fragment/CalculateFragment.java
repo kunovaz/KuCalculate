@@ -240,17 +240,17 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
 
                 if (minusABoolean) {
                     num1ADouble = num1ADouble - displayADouble;
-                    addABoolean = false;
+                    minusABoolean = false;
                 }
 
                 if (multiplyABoolean) {
                     num1ADouble = num1ADouble * displayADouble;
-                    addABoolean = false;
+                    multiplyABoolean = false;
                 }
 
                 if (divideABoolean) {
                     num1ADouble = num1ADouble / displayADouble;
-                    addABoolean = false;
+                    divideABoolean = false;
                 }
 
                 showDisplay(Double.toString(num1ADouble));
