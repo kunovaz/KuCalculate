@@ -217,6 +217,12 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
                 } else if (minusABoolean) {
                     num1ADouble = num1ADouble - Double.parseDouble(displayString);
                     minusABoolean = false;
+                } else if (multiplyABoolean) {
+                    num1ADouble = num1ADouble * Double.parseDouble(displayString);
+                    multiplyABoolean = false;
+                } else if (divideABoolean) {
+                    num1ADouble = num1ADouble / Double.parseDouble(displayString);
+                    divideABoolean = false;
                 } else {
                     num1ADouble = num1ADouble + displayADouble;
                 }
@@ -272,6 +278,12 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
                 } else if (addABoolean) {
                     num1ADouble = num1ADouble + Double.parseDouble(displayString);
                     addABoolean = false;
+                } else if (multiplyABoolean) {
+                    num1ADouble = num1ADouble * Double.parseDouble(displayString);
+                    multiplyABoolean = false;
+                } else if (divideABoolean) {
+                    num1ADouble = num1ADouble / Double.parseDouble(displayString);
+                    divideABoolean = false;
                 } else {
                     num1ADouble = num1ADouble - displayADouble;
                 }
@@ -291,6 +303,15 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
 
                 if (num1ADouble == 0) {
                     num1ADouble = displayADouble;
+                } else if (minusABoolean) {
+                    num1ADouble = num1ADouble - Double.parseDouble(displayString);
+                    minusABoolean = false;
+                } else if (multiplyABoolean) {
+                    num1ADouble = num1ADouble * Double.parseDouble(displayString);
+                    multiplyABoolean = false;
+                } else if (divideABoolean) {
+                    num1ADouble = num1ADouble / Double.parseDouble(displayString);
+                    divideABoolean = false;
                 } else {
                     num1ADouble = num1ADouble * displayADouble;
                 }
@@ -309,6 +330,15 @@ public class CalculateFragment extends Fragment implements View.OnClickListener 
 
                 if (num1ADouble == 0) {
                     num1ADouble = displayADouble;
+                } else if (addABoolean) {
+                    num1ADouble = num1ADouble + Double.parseDouble(displayString);
+                    addABoolean = false;
+                } else if (multiplyABoolean) {
+                    num1ADouble = num1ADouble * Double.parseDouble(displayString);
+                    multiplyABoolean = false;
+                } else if (minusABoolean) {
+                    num1ADouble = num1ADouble - Double.parseDouble(displayString);
+                    minusABoolean = false;
                 } else {
                     num1ADouble = num1ADouble / displayADouble;
                 }
